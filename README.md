@@ -1,4 +1,4 @@
-# password-hasing
+# password-hashing
 
 A simple package to hash passwords and verify if the password and the hash match the
 
