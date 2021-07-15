@@ -1,0 +1,25 @@
+{
+  "name": "password-hashing-jp",
+  "version": "1.0.2",
+  "description": "A simple TS package used for password generation and verification",
+  "main": "lib",
+  "author": "Jesus Porrello (https://www.jpaisys.com/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/. --etx ts",
+    "test": "jest",
+    "doc": "tsc && jsdoc -c ./.jsdoc.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.2",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-typescript-prettier": "^4.2.0",
+    "jest": "^27.0.6",
+    "jsdoc": "^3.6.7",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
